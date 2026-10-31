@@ -1,0 +1,15 @@
+{
+  "model": "gpt-5.4",
+  "prompt_version": "plan-execute-2.0-member3",
+  "trips": 10,
+  "first_plan_valid_rate": 1.0,
+  "avg_first_plan_steps": 3.0,
+  "trips_with_replan": 1,
+  "avg_replans": 0.2,
+  "avg_tokens_per_trip": 3107.9,
+  "total_est_cost_usd": 0.1543,
+  "outcomes": {
+    "candidate": 10
+  },
+  "verified_eligible": 9
+}

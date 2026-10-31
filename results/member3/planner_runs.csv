@@ -1,0 +1,11 @@
+scenario_id,category,first_plan_valid,first_plan_steps,replans,empty_steps,tool_calls,provider_calls,input_tokens,output_tokens,est_cost_usd,latency_ms,outcome,verified_eligible,error
+valid_base-01,valid_base,True,3,0,0,3,2,2343,642,0.01549,7991,candidate,True,
+valid_value-01,valid_value,True,3,0,0,3,2,2345,670,0.01591,7397,candidate,True,
+valid_convenient-01,valid_convenient,True,3,0,0,3,2,2353,536,0.01392,6570,candidate,True,
+budget_violation-01,budget_violation,True,3,0,0,3,2,2347,560,0.01427,7296,candidate,True,
+date_conflict-01,date_conflict,True,3,2,3,5,4,3829,869,0.02261,10767,candidate,False,
+incorrect_price-01,incorrect_price,True,3,0,0,3,2,2345,557,0.01422,6807,candidate,True,
+unsupported_claim-01,unsupported_claim,True,3,0,0,3,2,2345,535,0.01389,5967,candidate,True,
+missing_information-01,missing_information,True,3,0,0,3,2,2345,551,0.01413,6793,candidate,True,
+conflicting_requirements-01,conflicting_requirements,True,3,0,0,3,2,2357,553,0.01419,6397,candidate,True,
+tool_failure-01,tool_failure,True,3,0,0,3,2,2344,653,0.01566,8026,candidate,True,
