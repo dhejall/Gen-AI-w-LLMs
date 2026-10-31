@@ -1,0 +1,19 @@
+{
+  "model": "gpt-5.4",
+  "prompt_version": "plan-execute-2.0-member3",
+  "trips": 14,
+  "selected": 13,
+  "abstained": 1,
+  "first_try_verified": 13,
+  "fixed_after_feedback": 0,
+  "avg_feedback_uptake": 0.2,
+  "total_regressions": 0,
+  "total_replans": 4,
+  "total_tool_retries": 1,
+  "llm_cost_errors_corrected": 1,
+  "stop_reasons": {
+    "verified": 13,
+    "max_cycles": 1
+  },
+  "total_est_cost_usd": 0.2411
+}
